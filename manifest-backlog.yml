@@ -2,7 +2,7 @@ applications:
 - name: tracker-backlog
   path: ./applications/backlog-server/build/libs/backlog-server.jar
   host: backlog
-  memory: 1G
+  memory: 512MB
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: https://registration.apps.chicken.pal.pivotal.io

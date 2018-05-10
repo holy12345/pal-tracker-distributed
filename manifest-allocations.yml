@@ -2,7 +2,7 @@ applications:
 - name: tracker-allocations
   path: ./applications/allocations-server/build/libs/allocations-server.jar
   host: allocations
-  memory: 1G
+  memory: 512MB
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: https://registration.apps.chicken.pal.pivotal.io
