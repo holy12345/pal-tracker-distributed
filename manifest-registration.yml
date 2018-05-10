@@ -2,7 +2,7 @@ applications:
 - name: tracker-registration
   path: ./applications/registration-server/build/libs/registration-server.jar
   host: registration
-  memory: 512MB
+  memory: 1G
   instances: 1
   services:
   - tracker-registration-database

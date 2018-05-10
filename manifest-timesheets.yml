@@ -2,7 +2,7 @@ applications:
 - name: tracker-timesheets
   path: ./applications/timesheets-server/build/libs/timesheets-server.jar
   host: timesheets
-  memory: 512MB
+  memory: 1G
   instances: 1
   env:
     REGISTRATION_SERVER_ENDPOINT: https://registration.apps.chicken.pal.pivotal.io
