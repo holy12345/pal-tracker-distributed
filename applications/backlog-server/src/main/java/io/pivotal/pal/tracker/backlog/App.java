@@ -12,6 +12,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 import org.springframework.web.client.RestOperations;
 import java.util.TimeZone;
 
+@EnableEurekaClient
 @EnableCircuitBreaker
 @EnableWebSecurity
 @EnableResourceServer
